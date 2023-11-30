@@ -1,0 +1,11 @@
+CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS                     PORTS                                       NAMES
+f8d03d4eb8aa   sampleapp         "/bin/sh -c 'python3…"   10 minutes ago   Up 10 minutes              0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   samplerunning
+77dbd11d4dc2   apache-test:1.2   "/bin/sh -c 'apache2…"   2 weeks ago      Exited (255) 2 weeks ago   0.0.0.0:8080->80/tcp, :::8080->80/tcp       clever_montalcini
+b39a600e112b   37ce13b441fa      "/bin/sh -c 'apt ins…"   2 weeks ago      Exited (255) 2 weeks ago                                               boring_newton
+f7c09625e8ad   nginx             "/docker-entrypoint.…"   2 weeks ago      Exited (137) 2 weeks ago                                               lucid_wing
+4b573e3295b9   nginx             "/docker-entrypoint.…"   2 weeks ago      Exited (137) 2 weeks ago                                               confident_kepler
+650805e17848   ubuntu            "/bin/bash"              2 weeks ago      Exited (1) 2 weeks ago                                                 sharp_elbakyan
+7d25938e6e4b   ubuntu            "/bin/bash"              2 weeks ago      Exited (137) 2 weeks ago                                               angry_curie
+f4783c74a95b   ubuntu            "/bin/bash"              2 weeks ago      Exited (0) 2 weeks ago                                                 adoring_wilson
+13593f216740   ubuntu            "/bin/bash"              2 weeks ago      Exited (127) 2 weeks ago                                               stoic_spence
+90af9566a769   hello-world       "/hello"                 2 weeks ago      Exited (0) 2 weeks ago                                                 inspiring_gates
